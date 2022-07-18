@@ -1,0 +1,31 @@
+body{
+  background-image: url('../imgs/mountains-universe-1.png');
+  background-size: cover;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  height: 85vh;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.buttonAbout {
+  background: none;
+  padding: 2rem;
+  font-size: 2rem;
+  color: white;
+  border: solid 3px white;
+  border-radius: 1rem;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.buttonAbout:hover{
+  background: white;
+  color: black;
+}

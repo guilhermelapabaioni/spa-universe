@@ -1,0 +1,30 @@
+body {
+  background-image: url('../imgs/mountains-universe02.png');
+  background-size: cover;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+@media (min-width: 768px) {
+  .page {
+    margin: 0;
+    justify-content: left;
+    gap: 2rem;
+    height: 85vh;
+    padding: 6rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+}
